@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion_contacto">Descripcion Contacto</string>
+    <string name="btnPrincipal">Siguiente</string>
+    <string name="btnEdit">Editar datos</string>
+
+    <string name="pNombre">Nombre</string>
+    <string name="pTel">Telefono</string>
+    <string name="pFecha">fecha</string>
+    <string name="pDescri">Descripcion</string>
+    <string name="pEmail">Email</string>
+
+    <string name="confirma">Confirmar Datos</string>
+
+    <string name="Nombre">Nombre: Pedro Roqueta</string>
+    <string name="nacimiento">Fecha de nacimiento: 25/08/1993</string>
+    <string name="Tel">Tel.: 098575887</string>
+    <string name="Email">Email: pedro@gmail.com</string>
+    <string name="Descripcion">Descripción: Soy Uruguayo y me gusta el fútbol</string>
+
+
+</resources>

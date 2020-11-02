@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen">15dp</dimen>
+    <dimen name="pading">35dp</dimen>
+    <dimen name="dimenConf">35sp</dimen>
+
+    <dimen name="topMargin">20dp</dimen>
+    <dimen name="leftMargin">10dp</dimen>
+
+    <dimen name="texto">15sp</dimen>
+</resources>

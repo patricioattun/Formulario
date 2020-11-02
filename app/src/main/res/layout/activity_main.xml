@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_completo"
+            android:layout_marginLeft="@dimen/margen"
+            android:layout_marginRight="@dimen/margen"/>
+
+       <DatePicker
+           android:id="@+id/editFecha"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:datePickerMode="spinner"
+           android:calendarViewShown="false"
+           android:layout_marginLeft="@dimen/margen"
+           android:layout_marginRight="@dimen/margen"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints">
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/editTel"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Teléfono"
+           android:layout_marginLeft="@dimen/margen"
+           android:layout_marginRight="@dimen/margen"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints">
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/editEmail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Email"
+           android:layout_marginLeft="@dimen/margen"
+           android:layout_marginRight="@dimen/margen"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints">
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/editDesc"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Descripcion Contacto"
+           android:layout_marginLeft="@dimen/margen"
+           android:layout_marginRight="@dimen/margen"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
